@@ -1,4 +1,4 @@
-{
+ {
   "name": "local_calendar_sync",
   "version": "1.0.0",
   "description": "A simple calendar syncing system that keeps a local cache of calendar events that sync to Google Calendar API",
