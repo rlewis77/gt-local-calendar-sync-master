@@ -1,16 +1,13 @@
 var express = require('express');
 var app = express();
 var google = require('googleapis');
-var dotenv = require('dotenv').config();
+var api = require('./quickstart');
 
-// app.get('/', function (req, res) {
-//     res.send('R   World');
-// });
 
 
 
 app.get('/calendar-events', function (req, res) {
-    res.send('MfdY Events!');
+    res.send('My Events!');
 });
 
 

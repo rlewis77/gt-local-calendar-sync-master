@@ -22,7 +22,8 @@ gulp.task('nodemon', function (cb) {
         script: 'app.js',
         ignore: [
             'gulpfile.js',
-            'node_modules/'
+            'node_modules/',
+            'client_secret.json'
         ]
     })
         .on('start', function () {
