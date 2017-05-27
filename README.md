@@ -83,3 +83,15 @@ The server should respond to the following request via JSON in the format of the
 2. CD into directory and run 'npm install'
 3. Run 'npm run start'
 4. Go to browser and navigate to http://localhost:3007/ for Hello World
+
+## Additional Info and Evaluation Criteria
+The next step is to complete the take home challenge. The purpose of this is to evaluate your ability to work on web technologies related to our stack (Node.js) and one of our core problems (Calendar Sync).
+
+The challenge is designed to be open ended so there is no single optimal answer. Please read the included README file for further instructions.
+
+The evaluation criteria:
+1. Completeness - When running npm run start, will the code return the correct answer
+2. Code Quality - Clean/readable and organized code.
+3. Resourcefulness - Thoughtful use of existing modules and open source tooling
+4. Efficiency - Time complexity of primary algorithms / db access
+5. Communication - How well are you able to communicate during the process (questions/documentation)
