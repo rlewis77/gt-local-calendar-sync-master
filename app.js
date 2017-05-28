@@ -7,9 +7,8 @@ var google = require('googleapis');
 
 app.use('/', express.static('public'));
 
-app.get('/calendar-events', function (req, res) {
-    res.send('My Events!');
-});
+
+// app.get('/calendar-events',express.static('public'));
 
 
 app.listen(3007, function () {
