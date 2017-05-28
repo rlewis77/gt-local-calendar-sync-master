@@ -1,17 +1,15 @@
 var express = require('express');
 var app = express();
 var google = require('googleapis');
-var api = require('./quickstart');
+//var api = require('./quickstart');
 
 
 
+app.use('/', express.static('public'));
 
 app.get('/calendar-events', function (req, res) {
     res.send('My Events!');
 });
-
-
-app.use('/', express.static('public'));
 
 
 app.listen(3007, function () {
